@@ -1,0 +1,70 @@
+//Customize Material.css BASE COLOR
+.root {
+    -fx-basic-color: #00352C !important;
+    -fx-control-inner-background: #f0f0f0 !important;
+}
+
+.split-pane:horizontal > .split-pane-divider {
+   -fx-background-color: transparent;
+}
+.split-pane:vertical > .split-pane-divider {
+   -fx-background-color: transparent;
+}
+
+.split-pane, .anchor-pane, .tool-bar, .html-editor, .scroll-pane, .v-box, .h-box, .tab-pane, .tab-header-background, .toml-entry  {
+    -fx-background-color: #607D8B;
+    -fx-padding: 0 0 0 0;
+}
+
+.bg-theme-dark {
+    -fx-background-color: #607D8B !important;
+}
+
+.bg-theme-dark .label  {
+    -fx-text-fill: #F5F5F5;
+}
+
+.bg-theme-dark .choice-box .label  {
+    -fx-text-fill: -fx-text-color;
+}
+
+
+.anchor-pane > .tool-bar{
+    -fx-padding: 0 0 9 9;
+}
+
+.text, .html-editor {
+    -fx-font-family: "Siyam Rupali" !important;
+
+}
+
+.toml-entry {
+    -fx-border-color: #607D8B;
+    -fx-border-width: 0 0 2 0;
+    -fx-padding: 5 0 5 0;
+}
+
+.toml-entry > .label  {
+    -fx-padding: 0 0 0 0;
+    -fx-font-size:12px;
+    -fx-text-fill: #F5F5F5;
+}
+
+.scroll-bar .track {
+    -fx-background-color: -fx-lighter-color !important;
+}
+
+//TOML Editor
+.save-button-vbox .button {
+        -fx-padding: 10 60 10 60;
+            -fx-border-insets: 5;
+            -fx-background-insets: 5;
+}
+
+.list-cell {
+    -fx-alignment: center;
+}
+
+.hyperlink {
+
+}

@@ -1,4 +1,4 @@
-# Initial page test conflict EDIT IN GITHUB
+# Initial page test conflict
 
 ## Getting Super Powers
 
